@@ -9,7 +9,7 @@ int main() {
     int wylosowana = std::rand() % 999 + 1;
     int n;
     while (std::cin >> n, n != wylosowana) {
-        std::cout << "Zgaduj:";
+        std::cout << "Pudlo! Zgaduj jeszcze raz:"
     }
     std::cout << "Brawo!\n";
 }
