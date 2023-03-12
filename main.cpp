@@ -12,6 +12,12 @@ int main() {
     if (n == wylosowana)
         std::cout << "Brawo!\n";
     else {
-        std::cout << "Pudlo! Myslalem o " << wylosowana << '\n';
+        std::cout << "Pudlo! Zgaduj jeszcze raz:"
+        std::cin >> n;
+        if (n == wylosowana)
+            std::cout << "Brawo!\n";
+        else {
+            std::cout << "Zle!\n";
+        }
     }
 }
